@@ -1,0 +1,58 @@
+.MainZone {
+	color: var(--blue1);
+	font-size: 2em;
+	border: 1px solid var(--blue4);
+	transition: all 0.3s linear;
+	margin: 20px; 
+	background-image: linear-gradient(to bottom, var(--blue3), var(--blue4), var(--blue3));
+}
+
+.grid-wrapper {
+	margin: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	grid-gap: 20px;
+	background-image: linear-gradient(to bottom left, var(--orange3), var(--blue4)) ;
+	padding: 20px;
+}
+
+.txtStyle {
+	padding: 30px;
+	text-align: left;
+	font-size: 0.7em;
+}
+
+.txtCenter {
+	text-align: center;
+}
+
+.grid {
+	margin: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	grid-gap: 20px;
+	background-image: linear-gradient(to bottom left, var(--orange3), var(--blue4)) ;
+	padding: 20px;
+}
+
+
+.big {
+	grid-column : span 2;
+}
+
+.small {
+	grid-column: span 1;
+	justify-content: center;
+}
+
+.smallImage {
+	width: 200px;
+}
+
+li {
+	padding: 5px;
+}
+
+.scrollable {
+	overflow: scroll;
+}
