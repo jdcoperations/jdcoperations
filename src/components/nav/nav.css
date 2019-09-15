@@ -14,14 +14,14 @@
 	margin-bottom: 20px;
 	margin-left: 20px;
 	margin-top: 0px;
-	font-size: 0.7em;
+	font-size: 0.8em;
 	background-image: linear-gradient(to bottom, var(--blue4), var(--blue3), var(--blue4));
 }
 
 
 @media only screen and (max-width: 667px) {
 	.main-nav {
-		font-size: 0.5em;
+		font-size: 0.7em;
 		padding: 5px;
 	}
 }

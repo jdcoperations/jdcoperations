@@ -58,11 +58,7 @@
 img {
 	padding: 10px;
 }
-@media only screen and (max-width: 667px) {
-	.mkeyImg {
-		max-height: 30vh;
-	}
-}
+
 
 a {
 	padding: 20px;
@@ -74,5 +70,22 @@ a {
 	padding: 10px;
 	margin: 20px;
 	font-size: 0.5em;
-	width: 10%
+	width: 15%
+}
+
+@media only screen and (max-width: 1117px) {
+	.bigBut {
+		font-size: 0.4em;
+	}
+}
+@media only screen and (max-width: 771px) {
+	.mkeyImg {
+		max-height: 30vh;
+	}
+
+	.bigBut {
+		width: 50%;
+		margin: 10px;
+		font-size: 0.5em;
+	}
 }

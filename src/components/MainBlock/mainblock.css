@@ -56,3 +56,14 @@ li {
 .scrollable {
 	overflow: scroll;
 }
+
+@media only screen and (max-width: 667px) {
+	.txtStyle {
+		font-size: 0.5em
+	}
+
+	.smallImage {
+		width: 100px;
+	}
+	
+}
